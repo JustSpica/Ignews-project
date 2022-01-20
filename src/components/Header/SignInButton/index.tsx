@@ -5,7 +5,7 @@ import { FiX } from 'react-icons/fi';
 import styles from './styles.module.scss'
 
 export const SignButton = () => {
-  const [isUserLoggedIn,  setIsUserLoggedIn] = useState(false);
+  const [isUserLoggedIn,  setIsUserLoggedIn] = useState(true);
 
   return isUserLoggedIn ? (
     <button type="button" className={styles.signInButton}>
